@@ -84,23 +84,24 @@ body {
   margin-left: 80px;
 }
 .menu_items a {
+  position: relative;
   display: block;
-  display: table-column;
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #a4a4a4;
   transition: color 0.2s;
 }
+.menu_items i {
+  margin-right: 15px;
+}
 .menu_items a .icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  content: "";
+  left: -15px;
+  top: -15px;
   display: block;
   width: 60px;
   height: 60px;
-  margin-left: -33px;
-  margin-top: -32px;
   border-radius: 100%;
   border: 2px solid #f0f0f0;
   transition: border-color 0.2s;
@@ -108,10 +109,10 @@ body {
 .menu_items a:hover {
   color: #f0f0f0;
 }
-.menu_items a:hover .icon:after {
+.menu_items a:active .icon {
   border-color: #f37272;
 }
-.menu_items a:active .icon {
+.menu_items a:active {
   color: #f37272;
 }
 .real .content {
