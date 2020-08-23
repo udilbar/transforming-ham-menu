@@ -13,3 +13,13 @@ body {
   overflow: hidden;
   font-family: tahoma;
 }
+.page {
+  height: 100%;
+  background-color: #584e4a;
+}
+.content {
+  height: 200%;
+  transform-origin: top left;
+  transition: transform 0.7s cubic-bezier(1, 0.005, 0.24, 1);
+  background-color: #f0f0f0;
+}
