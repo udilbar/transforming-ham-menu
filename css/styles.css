@@ -12,6 +12,7 @@ body {
   height: 100%;
   font-family: tahoma;
   color: #584e4a;
+  overflow: hidden;
 }
 .page {
   height: 100%;
